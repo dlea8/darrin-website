@@ -1,0 +1,33 @@
+.welcome-section {
+    padding: 48px 0px;
+}
+.welcome-header {
+    width: 75%;
+    margin: auto;
+    align-items: left;
+    align-content: left;
+}
+
+.welcome-lbl {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+.welcome-wrapper {
+    margin: 0px auto 0px 0px;
+    width: 0%;
+}
+
+.welcome-msg {
+    width: 75%;
+    margin: auto;
+
+}
+
+.welcome-msg p{
+    text-align: left;
+    font-size: large;
+
+}

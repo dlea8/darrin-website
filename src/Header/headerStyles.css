@@ -1,0 +1,48 @@
+.header {
+    background-color: darkgray;
+    background-image: url('../assets/website-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    /* #98ff98 ; */
+}
+
+.header-wrapper {   
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.name-div {
+    margin: auto;
+    padding: auto;
+    padding-top: 24px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.icons {
+    padding: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.2); 
+    color: rgb(17, 202, 202);
+}
