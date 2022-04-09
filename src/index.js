@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from "react-ga4";
+
+if (window.location.hostname != "localhost") {
+  ReactGA.initialize("G-N6PBLYXMET");
+  console.log('CONNECTED')
+} else {
+  console.log('ANALYTICS NOT REPORTED - USER ON LOCALHOST')
+}
+ReactGA.send("pageview");
 
 ReactDOM.render(
   <React.StrictMode>
