@@ -1,0 +1,28 @@
+.footer {
+    min-height: 150px;
+    padding: 16px;
+}
+
+.footer-name {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.footer-name:hover{
+    color: rgb(17, 202, 202);
+}
+
+.footer-icons {
+    color: black;
+    padding: 8px;
+}
+
+.copywrite {
+    width: 85%;
+    margin: auto;
+    border-top: .1rem solid #e6e6e6;
+    margin-top: 8px;
+    padding: 4px;
+
+}

@@ -1,9 +1,6 @@
 import "./navbar.css";
 import { scroller } from "react-scroll";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-
 const scrollToSection = (navClass) => {
     scroller.scrollTo(navClass, {
       duration: 800,

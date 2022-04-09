@@ -4,6 +4,7 @@ import Header from './Header/header';
 import Welcome from './WelcomeSection/welcome';
 import Projects from './ProjectsSection/projects';
 import NavBar from './NavBar/navbar';
+import Footer from './Footer/footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header></Header>
       <Welcome></Welcome>
       <Projects/>
+      <Footer></Footer>
 
     </div>
   );
