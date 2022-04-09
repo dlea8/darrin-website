@@ -3,6 +3,7 @@ import './welcome.css';
 import React, {useEffect, useState} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import image from "../assets/headshot.jpg";
 
 function Welcome() {
 
@@ -14,9 +15,10 @@ function Welcome() {
 
     return (
       <div className="welcome-section">
+        <div className='text-div'>
           <div className='welcome-header' data-aos="fade">
-            <div className='welcome-wrapper'><label className="welcome-lbl">Welcome!</label></div>
-               
+              <div className='welcome-wrapper'><label className="welcome-lbl">Welcome!</label></div>
+                
           </div>
           <div className="welcome-msg" data-aos="fade">
               <p>My name is Darrin Lea and I’m a Sophomore at Louisiana State University 
@@ -28,6 +30,10 @@ function Welcome() {
                   Be sure to check out some of my personal projects and feel free to reach out 
                   via LinkedIn or email!</p>
           </div>
+        </div>
+        <div className='img-div'>
+          <img src={image}></img>
+        </div>
       </div>
     );
   }
