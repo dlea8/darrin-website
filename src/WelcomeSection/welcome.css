@@ -3,6 +3,7 @@
 }
 .welcome-header {
     width: 80%;
+    max-width: 1250px;
     margin: auto;
     align-items: left;
     align-content: left;
@@ -22,6 +23,7 @@
 
 .welcome-msg {
     width: 80%;
+    max-width: 1250px;
     margin: auto;
 
 }
