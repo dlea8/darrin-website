@@ -1,12 +1,19 @@
 import "./projectStyles.css";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import React, {useEffect, useState} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function ProjectCard(props) {
 
+  useEffect(() => {
+    AOS.init({
+        // delay: parseInt(props.delay),
+    });
+  }, []);
+
   return (
-    <div className="project-card-container grow">
+    <div className="project-card-container grow" data-aos="fade-up" data-aos-delay={props.delay}>
         <div className="title">
             <label className="title-text">{props.title}</label>
         </div>

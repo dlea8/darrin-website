@@ -27,7 +27,7 @@ function Footer() {
             <a href="https://github.com/dlea8" target="_blank"><FontAwesomeIcon className="footer-icons grow" icon={faGithub} size="lg" /></a>
         </div>
         <div className="copywrite">
-            Copywrite Darrin Lea 2022
+            Copywrite © {new Date().getFullYear()} Darrin Lea
         </div>
     </div>
   );
