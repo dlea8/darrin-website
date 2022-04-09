@@ -2,6 +2,7 @@ import "./headerStyles.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from  '@fortawesome/free-solid-svg-icons';
 
 function Header() {
 
@@ -15,7 +16,7 @@ function Header() {
             </div>
             
             <div className="socials-flex">
-                <a href="" target="_blank"><FontAwesomeIcon className="icons grow" icon={faInstagram} size="lg"/></a>
+                <a href="mailto:dlea1@lsu.edu" target="_blank"><FontAwesomeIcon className="icons grow" icon={faEnvelope} size="lg"/></a>
                 <a href="https://www.linkedin.com/in/darrin-lea-a029941b8/" target="_blank"><FontAwesomeIcon className="icons grow" icon={faLinkedin} size="lg"/></a>
                 <a href="https://github.com/dlea8" target="_blank"><FontAwesomeIcon className="icons grow" icon={faGithub} size="lg" /></a>
             </div>

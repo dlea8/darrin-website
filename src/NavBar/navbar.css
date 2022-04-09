@@ -1,0 +1,23 @@
+.navbar-container {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-flex {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+    padding-top: 24px;
+}
+
+.nav-item {
+    font-size: x-large;
+    color: white;
+    padding: 24px;
+}
+
+.nav-item:hover {
+    color: rgb(17, 202, 202);
+}
