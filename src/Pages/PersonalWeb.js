@@ -6,7 +6,7 @@ import "../Styles/GlobalStyles.css";
 import Footer from "../Footer/footer";
 import PageNavbar from "../NavBar/PagesNavbar";
 import "../Styles/pages.css";
-import codeImage from "../assets/ReactWebsite.PNG";
+import codeImage from "../assets/ReactWebsite.jpg";
 
 function PersonalWebsite() {
 
