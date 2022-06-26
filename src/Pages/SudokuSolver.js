@@ -18,7 +18,7 @@ function SudokuSolver() {
 
     return (
       <div className="page-background">
-         <div><PageNavbar/></div>
+         <div className="page-navbar-wrapper"><PageNavbar/></div>
         <div className="page-content-section"> 
           <div className="page-text-div">
             <div className="page-header-div">
@@ -45,12 +45,12 @@ function SudokuSolver() {
                     is no conflict and tries different numbers. This process continues until there is a combination of numbers that solves the puzzle. I'd also love to explore the 
                     possibility of developing a machine learning model for solving Sudoku puzzles. <br/>
                     <br/>
-                    Check out the Sudoku Solver on Github <a className="github-link" href="https://github.com/dlea8/SudokuSolver">here</a>!
+                    Check out the Sudoku Solver on Github <a className="github-link" target="_blank" href="https://github.com/dlea8/SudokuSolver">here</a>!
                   </p>
             </div>
           </div>
         </div>
-        <div className="page-footer-div"><Footer/></div>
+        {/* <div className="page-footer-div"><Footer/></div> */}
           
       </div>
     );

@@ -53,6 +53,21 @@
     cursor: pointer;
 }
 
+.pages-navbar-link {
+    text-decoration: none;
+    color: white;
+}
+
+.pages-navbar-link:hover {
+    text-decoration: none;
+    color: rgb(17, 202, 202);
+}
+
+.pages-navbar-link::after {
+    text-decoration: none;
+    color: white;
+}
+
 .page-navbar-socials-wrapper {
     align-items: right;
     justify-content: right;

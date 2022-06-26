@@ -18,7 +18,7 @@ function PageNavbar() {
     <div className="page-navbar-wrapper">
         <div className="page-navbar">
             <div className="page-navbar-name">
-                <label >Darrin Lea</label>
+                <a href="/" className="pages-navbar-link">Darrin Lea</a>
             </div>
             <div className="page-navbar-socials-wrapper">
                 <div className="page-navbar-socials">
