@@ -9,7 +9,7 @@ import "../Styles/pages.css";
 import score from "../assets/score.jpg";
 import home from "../assets/GolfAssistantHome.jpg";
 import handicap from "../assets/calcHandicap.jpg";
-import android from "../assets/androidStudio.PNG";
+import android from "../assets/androidStudio.jpg";
 
 function GolfAssistant() {
 
