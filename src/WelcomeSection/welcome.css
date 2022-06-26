@@ -17,8 +17,9 @@
 }
 
 .welcome-lbl {
-    font-size: xx-large;
+    font-size: 36px;
     font-weight: bold;
+    font-family: "Roboto Slab",serif;
     text-align: left;
     width: 100%;
 }
@@ -37,6 +38,9 @@
 .welcome-msg p{
     text-align: left;
     font-size: large;
+    line-height: 28px;;
+    font-family: "Roboto Slab",serif;
+    color:rgb(155, 154, 154);
 
 }
 

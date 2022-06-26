@@ -1,12 +1,13 @@
 .footer {
     min-height: 150px;
     padding: 16px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .footer-name {
     font-size: x-large;
     font-weight: bold;
+    font-family: "Roboto Slab",serif;
     padding: 8px;
     text-align: center;
 }
