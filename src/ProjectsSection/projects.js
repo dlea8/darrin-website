@@ -31,7 +31,7 @@ function Projects() {
               text = "An Android app that helps you calculate your golf handicap and keep track of scores. Built in Android studio. Click to see features the app offers and view the app on GitHub."
               image={golf}
               delay="150"
-              link="../Pages/SudokuSolver" />
+              link="../GolfAssistant" />
             </siv>
             <div className="project-grow ">
               <ProjectCard
@@ -39,7 +39,7 @@ function Projects() {
               text = "After teaching myself the ReactJs framework, I built this website from scratch using React. "
               image={reactLogo}
               delay="300"
-              link="../Pages/SudokuSolver"/>
+              link="../PersonalWebsite"/>
             </div>
            
         </div>

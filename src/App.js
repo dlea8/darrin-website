@@ -8,6 +8,8 @@ import Footer from './Footer/footer';
 import SudokuSolver from './Pages/SudokuSolver';
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom'
+import GolfAssistant from './Pages/GolfPage';
+import PersonalWebsite from './Pages/PersonalWeb';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/SudokuSolver" element={<SudokuSolver/>}/>
+          <Route exact path="/GolfAssistant" element={<GolfAssistant/>}/>
+          <Route exact path="/PersonalWebsite" element={<PersonalWebsite/>}/>
         </Routes>
       </div>
     </Router>

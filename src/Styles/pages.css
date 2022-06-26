@@ -46,3 +46,18 @@
     position: sticky;
 }
 
+
+.golf-assistant-images-div {
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.golf-assistant-images-div > img {
+    max-width: 250px;
+    margin: auto;
+
+}
