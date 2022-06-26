@@ -6,7 +6,7 @@ import "../Styles/GlobalStyles.css";
 import Footer from "../Footer/footer";
 import PageNavbar from "../NavBar/PagesNavbar";
 import "../Styles/pages.css";
-import codeImage from "../assets/sudokuSolverCode.PNG";
+import codeImage from "../assets/sudokuSolverCode.jpg";
 
 function SudokuSolver() {
 
