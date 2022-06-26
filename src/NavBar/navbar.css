@@ -15,6 +15,7 @@
 
 .nav-item {
     font-size: large;
+    font-family: "Roboto Slab",serif;
     color: white;
     padding: 24px;
 }
@@ -43,6 +44,7 @@
 .page-navbar-name {
     font-size: x-large;
     font-weight: 600;
+    font-family: "Roboto Slab",serif;
     color: white;
     margin: auto 0px;
 

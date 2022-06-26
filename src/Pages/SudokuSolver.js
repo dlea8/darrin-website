@@ -50,7 +50,7 @@ function SudokuSolver() {
             </div>
           </div>
         </div>
-        {/* <div className="page-footer-div"><Footer/></div> */}
+        <div className="page-footer-div"><Footer/></div>
           
       </div>
     );
