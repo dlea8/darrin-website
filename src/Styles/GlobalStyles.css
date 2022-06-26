@@ -1,0 +1,9 @@
+.github-link {
+    color: rgb(17, 202, 202);
+    text-decoration: none;
+    font-weight: 500;
+}   
+
+.github-link:hover {
+    color: rgb(13, 81, 226);
+}

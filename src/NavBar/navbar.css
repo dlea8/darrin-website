@@ -22,3 +22,54 @@
 .nav-item:hover {
     color: rgb(17, 202, 202);
 }
+
+
+
+/* ================================================================= */
+
+.page-navbar-wrapper {
+    background-color: #111354;
+    height: 8vh;
+}
+
+.page-navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+
+.page-navbar-name {
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    margin: auto 0px;
+
+}
+
+.page-navbar-name:hover {
+    color:rgb(17, 202, 202);
+    cursor: pointer;
+}
+
+.page-navbar-socials-wrapper {
+    align-items: right;
+    justify-content: right;
+    align-content: right;
+}
+
+.page-navbar-socials {
+    display: flex;
+    flex-direction: row;
+    vertical-align: auto;
+    align-items: left;
+    height: 100%;
+    width:fit-content;
+    margin: auto 0 auto auto;
+    align-self: right;
+}
+
+.page-navbar-socials > a {
+    padding: 4px 0px;
+}

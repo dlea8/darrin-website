@@ -1,16 +1,25 @@
 .footer {
     min-height: 150px;
     padding: 16px;
+    width: 100%;
 }
 
 .footer-name {
     font-size: x-large;
     font-weight: bold;
     padding: 8px;
+    text-align: center;
 }
 
 .footer-name:hover{
     color: rgb(17, 202, 202);
+}
+
+.footer-socials {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .footer-icons {
@@ -24,5 +33,6 @@
     border-top: .1rem solid #e6e6e6;
     margin-top: 8px;
     padding: 4px;
+    text-align: center;
 
 }
