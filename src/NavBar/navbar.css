@@ -90,3 +90,7 @@
 .page-navbar-socials > a {
     padding: 4px 0px;
 }
+
+.resume-link {
+    text-decoration: none;
+}

@@ -21,12 +21,12 @@ function Welcome() {
                 
           </div>
           <div className="welcome-msg" >
-              <p>My name is Darrin Lea and I’m a Sophomore at Louisiana State University 
+              <p>My name is Darrin Lea and I’m a Junior at Louisiana State University 
                   majoring in Computer Science and Math. 
-                  I’ve always had a fascination with computer and a thirst for learning. 
-                  Over the past few years I’ve gained industry experience through my internships with 
-                  T-Mobile and BBP. I have a year of industry experience in full stack development 
-                  as well as experience with Android Mobile development. 
+                  I’ve always had a fascination with computers and a thirst for learning. 
+                  Over the past few years I’ve gained industry experience through internships with 
+                  T-Mobile and BBP. I have two years of industry experience in full-stack development 
+                  as well as a year of experience with Android Mobile development. 
                   Be sure to check out some of my personal projects and feel free to reach out 
                   via LinkedIn or email!</p>
           </div>
