@@ -21,7 +21,7 @@
 }
 
 .nav-item:hover {
-    color: rgb(17, 202, 202);
+    color: var(--color-primary);
 }
 
 
@@ -51,7 +51,7 @@
 }
 
 .page-navbar-name:hover {
-    color:rgb(17, 202, 202);
+    color: var(--color-primary);
     cursor: pointer;
 }
 
@@ -62,7 +62,7 @@
 
 .pages-navbar-link:hover {
     text-decoration: none;
-    color: rgb(17, 202, 202);
+    color: var(--color-primary);
 }
 
 .pages-navbar-link::after {

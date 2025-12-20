@@ -13,7 +13,7 @@
 }
 
 .footer-name:hover{
-    color: rgb(17, 202, 202);
+    color: var(--color-primary);
 }
 
 .footer-socials {
