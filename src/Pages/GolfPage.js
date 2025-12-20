@@ -1,7 +1,6 @@
-import React, {useEffect, useState} from "react";
+import {useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import image from "../assets/headshot.jpg";
 import "../Styles/GlobalStyles.css";
 import Footer from "../Footer/footer";
 import PageNavbar from "../NavBar/PagesNavbar";
@@ -28,7 +27,7 @@ function GolfAssistant() {
                 <h1>Golf Assistant Android App</h1>
             </div>
             <div className="page-image-holder" >
-              <img className="page-header-image" src={android}></img>
+              <img className="page-header-image" src={android} alt="Unavailable"></img>
             </div>
 
             <div>
@@ -46,9 +45,9 @@ function GolfAssistant() {
                     Below are some screenshots of the views on the app.
                   </p>
                     <div className="golf-assistant-images-div">
-                        <img src={home}></img>
-                        <img src={handicap}></img>
-                        <img src={score}></img>
+                        <img src={home} alt="Unavailable"></img>
+                        <img src={handicap} alt="Unavailable"></img>
+                        <img src={score} alt="Unavailable"></img>
                     </div>
                   <p className="project-description"> 
                     My vision for this app is to expand upon it in the future to allow players to choose which course they are playing on and dynamically
@@ -57,7 +56,7 @@ function GolfAssistant() {
                     by leveraging gps location of the user's phone and of the green.<br/>
                     <br/>
                     Overall, this project has been really fun to work on and definitely has room for expansion. I would love to make some of those dreams a reality
-                    as I continue to improve on this app. Check out the Golf Assistant app on Github <a className="github-link" target="_blank" href="https://github.com/dlea8/GolfAssistant">here</a>!
+                    as I continue to improve on this app. Check out the Golf Assistant app on Github <a className="github-link" target="_blank" rel="noreferrer" href="https://github.com/dlea8/GolfAssistant">here</a>!
                   </p>
             </div>
           </div>
