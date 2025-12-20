@@ -1,9 +1,8 @@
 import "./projectStyles.css";
 
-import React, {useEffect, useState} from "react";
+import {useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Link, useHref } from 'react-router-dom'
 
 function ProjectCard(props) {
 
@@ -26,7 +25,7 @@ function ProjectCard(props) {
           </div>
 
           <div className="img-holder">
-              <img src={props.image} className="img-style"></img>
+              <img src={props.image} className="img-style" alt="Unavailable"></img>
           </div>
 
           <div className="text-holder">
