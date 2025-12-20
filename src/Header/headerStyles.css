@@ -1,10 +1,9 @@
 .header {
-    background-color: darkgray;
-    background-image: url('../assets/wordsBackground.jpg');
+    background-color: var(--color-primary);
+    background-image: url('../assets/sudokuSolverCode.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    /* #98ff98 ; */
 }
 
 .header-wrapper {   

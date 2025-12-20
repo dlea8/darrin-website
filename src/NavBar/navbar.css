@@ -15,7 +15,7 @@
 
 .nav-item {
     font-size: large;
-    /* font-family: "Roboto Slab",serif; */
+    font-weight: bold;
     color: white;
     padding: 24px;
 }
