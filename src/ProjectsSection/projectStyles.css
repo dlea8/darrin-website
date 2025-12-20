@@ -16,7 +16,7 @@
 
 .projects-content {
     width: 85%;
-    max-width: 1250px;
+    max-width: var(--contect-max-width);
     margin: auto;
     display: flex;
     /* flex-direction: column; */

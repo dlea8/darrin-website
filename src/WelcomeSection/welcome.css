@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-between;
-    max-width: 1250px;
+    max-width: var(--contect-max-width);
     width: 85%;
 }
 .welcome-header {

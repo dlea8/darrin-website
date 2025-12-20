@@ -25,5 +25,7 @@ code {
   
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 
-  --border-radius-standard: 8px
+  --border-radius-standard: 8px;
+
+  --content-max-width: 1250px;
 }
