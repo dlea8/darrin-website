@@ -3,10 +3,7 @@ import sudoku from "../assets/SudokuImg.png";
 import reactLogo from "../assets/reactLogo.jpg";
 import golf from "../assets/golfPicTemp.jpg";
 import ProjectCard from "./projectCard";
-import React, {useEffect, useState} from "react";
-import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { NavLink} from 'react-router-dom'
 
 function Projects() {
 
@@ -25,14 +22,14 @@ function Projects() {
               link="./SudokuSolver"/>
             </div>
           
-            <siv className="project-grow ">
+            <div className="project-grow ">
               <ProjectCard
               title = "Golf Assistant App"
               text = "An Android app that helps you calculate your golf handicap and keep track of scores. Built in Android studio. Click to see features the app offers and view the app on GitHub."
               image={golf}
               delay="150"
               link="../GolfAssistant" />
-            </siv>
+            </div>
             <div className="project-grow ">
               <ProjectCard
               title = "Personal Website"

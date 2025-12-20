@@ -1,15 +1,10 @@
 import "./navbar.css";
-import { scroller } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from  '@fortawesome/free-solid-svg-icons';
 
 const scrollToSection = (navClass) => {
-    scroller.scrollTo(navClass, {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart"
-    })
+    console.log('replace scroller');
 }
 
 function PageNavbar() {

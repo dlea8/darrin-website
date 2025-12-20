@@ -1,12 +1,7 @@
 import "./navbar.css";
-import { scroller } from "react-scroll";
 
 const scrollToSection = (navClass) => {
-    scroller.scrollTo(navClass, {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart"
-    })
+    console.log('replace scroller');
 }
 
 function NavBar() {
