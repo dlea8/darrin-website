@@ -4,6 +4,7 @@ import reactLogo from "../assets/reactLogo.jpg";
 import golf from "../assets/golfPicTemp.jpg";
 import ProjectCard from "./projectCard";
 import 'aos/dist/aos.css';
+import ProjectCardNew from "./projectCardNew";
 
 function Projects() {
 
@@ -13,7 +14,14 @@ function Projects() {
             <label className="projects-section-title">Personal Projects</label>
         </div>
         <div className="projects-content">
-            <div className="project-grow">
+            <ProjectCardNew/>
+            <ProjectCardNew/>
+            <ProjectCardNew/>
+            <ProjectCardNew/>
+            <ProjectCardNew/>
+            <ProjectCardNew/>
+
+            {/* <div className="project-grow">
               <ProjectCard
               title = "Sudoku Solver"
               text = "Retreives a random Sudoku puzzle from an online dataset and solves the puzzle. Created in Summer of 2020 and implemented in Java.View more details and run it for yourself on my GitHub page"
@@ -37,7 +45,7 @@ function Projects() {
               image={reactLogo}
               delay="300"
               link="../PersonalWebsite"/>
-            </div>
+            </div> */}
            
         </div>
     </div>

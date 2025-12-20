@@ -24,4 +24,6 @@ code {
   --color-bg-secondary: #F5F5F5;
   
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --border-radius-standard: 8px
 }

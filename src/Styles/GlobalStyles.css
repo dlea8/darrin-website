@@ -7,3 +7,8 @@
 .github-link:hover {
     color: rgb(13, 81, 226);
 }
+
+/* dont think this will always garuantee that it will act predictably */
+.spacer {
+    flex-grow: 1;
+}

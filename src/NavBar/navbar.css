@@ -29,7 +29,7 @@
 /* ================================================================= */
 
 .page-navbar-wrapper {
-    background-color: #111354;
+    background-color: var(--color-primary);
     height: 8vh;
 }
 
