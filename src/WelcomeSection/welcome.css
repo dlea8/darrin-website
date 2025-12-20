@@ -19,7 +19,7 @@
 .welcome-lbl {
     font-size: 36px;
     font-weight: bold;
-    font-family: "Roboto Slab",serif;
+    /* font-family: "Roboto Slab",serif; */
     text-align: left;
     width: 100%;
 }
@@ -39,7 +39,7 @@
     text-align: left;
     font-size: large;
     line-height: 28px;;
-    font-family: "Roboto Slab",serif;
+    /* font-family: "Roboto Slab",serif; */
     color: var(--color-text-secondary)
 
 }
