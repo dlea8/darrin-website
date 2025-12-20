@@ -40,7 +40,7 @@
     font-size: large;
     line-height: 28px;;
     font-family: "Roboto Slab",serif;
-    color:rgb(155, 154, 154);
+    color: var(--color-text-secondary)
 
 }
 

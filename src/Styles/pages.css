@@ -1,11 +1,11 @@
 .page-background {
-    background-color: #F5F5F5;
+    background-color: var(--color-bg-secondary);
 }
 
 .page-content-section {
     width: 85vw;
     margin: auto;
-    background-color: white;
+    background-color: var(--color-bg-primary);
 }
 
 .page-header-div {
@@ -32,7 +32,7 @@
 }
 
 .page-footer-div {
-    background-color: white;
+    background-color: var(--color-bg-primary);
 }
 
 .project-description {
