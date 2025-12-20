@@ -39,6 +39,10 @@
     color: white;
 }
 
+.icons:hover {
+    color: var(--color-primary)
+}
+
 
 .grow { 
     transition: all .2s ease-in-out; 

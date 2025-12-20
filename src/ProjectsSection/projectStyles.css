@@ -90,11 +90,11 @@
 
 .project-grow { 
     transition: all .2s ease-in-out; 
-    }
-    
-    .project-grow:hover { 
+}
+
+.project-grow:hover { 
     transform: scale(1.05); 
-    }
+}
 
 
 /* NEW PROJECT CARD STYLES */
@@ -109,6 +109,9 @@
     min-height: 250px;
 
     width: 1rem;
+
+    box-shadow: 0px 6px 8px 0px rgba(44, 44, 44, 0.1);
+
 }
 
 .new-project-card-text-container {
@@ -124,14 +127,10 @@
 .new-project-card-title {
     font-weight: bold;
     font-size: large;
-    /* width: '100%'; */
     color: var(--color-text-primary);
-
-    /* flex-grow: 0; */
 }
 
 .new-project-card-subtitle {
-    /* width: '100%'; */
     font-size: small;
     color: var(--color-text-secondary);
 

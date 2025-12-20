@@ -13,9 +13,9 @@ function PageNavbar() {
             </div>
             <div className="page-navbar-socials-wrapper">
                 <div className="page-navbar-socials">
-                    <a href="mailto:dlea1@lsu.edu" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icons grow" icon={faEnvelope} size="lg"/></a>
-                    <a href="https://www.linkedin.com/in/darrin-lea-a029941b8/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icons grow" icon={faLinkedin} size="lg"/></a>
-                    <a href="https://github.com/dlea8" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icons grow" icon={faGithub} size="lg" /></a>
+                    <a href="mailto:dlea1@lsu.edu" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icons" icon={faEnvelope} size="lg"/></a>
+                    <a href="https://www.linkedin.com/in/darrin-lea-a029941b8/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icons" icon={faLinkedin} size="lg"/></a>
+                    <a href="https://github.com/dlea8" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icons" icon={faGithub} size="lg" /></a>
                 </div>
             </div>
         </div>

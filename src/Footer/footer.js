@@ -17,9 +17,9 @@ function Footer() {
         </div>
         <div >
           <div className="footer-socials">
-              <div><a href="mailto:dlea1@lsu.edu" target="_blank" rel="noreferrer"><FontAwesomeIcon className="footer-icons grow" icon={faEnvelope} size="lg"/></a></div>
-              <div><a href="https://www.linkedin.com/in/darrin-lea-a029941b8/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="footer-icons grow" icon={faLinkedin} size="lg"/></a></div>
-              <div><a href="https://github.com/dlea8" target="_blank" rel="noreferrer"><FontAwesomeIcon className="footer-icons grow" icon={faGithub} size="lg" /></a></div>
+              <div><a href="mailto:dlea1@lsu.edu" target="_blank" rel="noreferrer"><FontAwesomeIcon className="footer-icons" icon={faEnvelope} size="lg"/></a></div>
+              <div><a href="https://www.linkedin.com/in/darrin-lea-a029941b8/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="footer-icons" icon={faLinkedin} size="lg"/></a></div>
+              <div><a href="https://github.com/dlea8" target="_blank" rel="noreferrer"><FontAwesomeIcon className="footer-icons" icon={faGithub} size="lg" /></a></div>
           </div>
         </div>
         <div className="copywrite">
