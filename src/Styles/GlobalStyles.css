@@ -12,3 +12,15 @@
 .spacer {
     flex-grow: 1;
 }
+
+.section {
+    padding: var(--section-padding) 0px
+}
+
+.section-title {
+    margin-bottom: var(--section-padding);
+
+    color: var(--color-text-primary);
+    font-size: xx-large;
+    font-weight: bold;
+}

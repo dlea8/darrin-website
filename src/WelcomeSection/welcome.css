@@ -1,10 +1,9 @@
 .welcome-section {
-    padding: 48px 0px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-between;
-    max-width: var(--contect-max-width);
+    max-width: var(--content-max-width);
     width: 85%;
 }
 .welcome-header {

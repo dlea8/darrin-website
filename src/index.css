@@ -17,7 +17,7 @@ code {
   /* --color-primary-light: #3b82f6;
   --color-primary-dark: #1e3a8a; */
 
-  --color-text-primary: #000000;
+  --color-text-primary: #312f3c;
   --color-text-secondary: #9B9A9A;
 
   --color-bg-primary: #ffffff;
@@ -28,4 +28,6 @@ code {
   --border-radius-standard: 8px;
 
   --content-max-width: 1250px;
+
+  --section-padding: 64px
 }

@@ -9,9 +9,9 @@ import ProjectCardNew from "./projectCardNew";
 function Projects() {
 
   return (
-    <div className="projects-section">
-        <div className="projects-title-div">
-            <label className="projects-section-title">Personal Projects</label>
+    <div className="projects-section section">
+        <div className="section-title">
+            <label>Personal Projects</label>
         </div>
         <div className="projects-content">
             <ProjectCardNew/>
