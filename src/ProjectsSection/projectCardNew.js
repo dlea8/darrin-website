@@ -27,7 +27,6 @@ export default function ProjectCardNew(props) {
                     </BlueButton> 
                 </div>
             </div>
-
         </div>
     );
 }

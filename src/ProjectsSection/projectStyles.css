@@ -8,8 +8,9 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     gap: 16px;
 
 }
@@ -91,12 +92,18 @@
 
     padding: 24px;
 
-    min-width: 350px;
+    width: 350px;
     min-height: 250px;
-
-    width: 1rem;
+    /* width: 100%; */
 
     box-shadow: 0px 6px 8px 0px rgba(44, 44, 44, 0.1);
+}
+
+/* once the screen is too small for two cards to fit next to each other */
+@media (max-width: 975px) {
+    .new-project-card-container {
+        width: 100%;
+    }
 }
 
 .new-project-card-text-container {
@@ -129,33 +136,32 @@
     color: var(--color-primary);
 }
 
-
 .new-project-card-accent-line {
-    width: '100%';
+    width: 100%;
     height: 4px;
     background-color: var(--color-primary);
     justify-self: flex-end;
 }
 
 .hover-border {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .hover-border::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 4px;
-  width: 100%;
-  background-color: var(--color-primary);
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    background-color: var(--color-primary);
 
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform var(--animate-time) ease;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--animate-time) ease;
 }
 
 .hover-border:hover::after {
-  transform: scaleX(1);
+    transform: scaleX(1);
 }
