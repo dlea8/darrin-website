@@ -8,20 +8,20 @@
     display: flex;
     flex-direction: row;
     width: 85%;
-    max-width: 1250px;
+    max-width: var(--content-max-width);
     margin: auto;
     padding-top: 24px;
 }
 
 .nav-item {
     font-size: large;
-    font-family: "Roboto Slab",serif;
+    font-weight: bold;
     color: white;
     padding: 24px;
 }
 
 .nav-item:hover {
-    color: rgb(17, 202, 202);
+    color: var(--color-primary);
 }
 
 
@@ -29,7 +29,7 @@
 /* ================================================================= */
 
 .page-navbar-wrapper {
-    background-color: #111354;
+    background-color: var(--color-primary);
     height: 8vh;
 }
 
@@ -44,14 +44,14 @@
 .page-navbar-name {
     font-size: x-large;
     font-weight: 600;
-    font-family: "Roboto Slab",serif;
+    /* font-family: "Roboto Slab",serif; */
     color: white;
     margin: auto 0px;
 
 }
 
 .page-navbar-name:hover {
-    color:rgb(17, 202, 202);
+    color: var(--color-primary);
     cursor: pointer;
 }
 
@@ -62,7 +62,7 @@
 
 .pages-navbar-link:hover {
     text-decoration: none;
-    color: rgb(17, 202, 202);
+    color: var(--color-primary);
 }
 
 .pages-navbar-link::after {
