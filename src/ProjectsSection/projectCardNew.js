@@ -1,6 +1,13 @@
 import "./projectStyles.css";
+import "../Styles/GlobalStyles.css"
+import BlueButton from "../SharedComponents/blueButton.js";
 
 export default function ProjectCardNew(props) {
+
+    function readMore() {
+        alert("Navigate to project page")
+    }
+
     return (
         <div className="new-project-card-container hover-border">
             <div className="new-project-card-text-container">
@@ -14,6 +21,11 @@ export default function ProjectCardNew(props) {
                 {/* Maybe a small image or logo here as well? */}
                 <div className="spacer"></div>
                 {/* <div className="new-project-card-accent-line"></div> */}
+                <div>
+                    <BlueButton onClick={() => readMore()}>
+                        Read More
+                    </BlueButton> 
+                </div>
             </div>
 
         </div>
