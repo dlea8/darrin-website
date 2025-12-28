@@ -15,12 +15,31 @@ function Projects() {
             <label>Personal Projects</label>
         </div>
         <div className="projects-content">
-            <ProjectCardNew/>
-            <ProjectCardNew/>
-            <ProjectCardNew/>
-            <ProjectCardNew/>
-            <ProjectCardNew/>
-            <ProjectCardNew/>
+            <ProjectCardNew 
+              title={"Project Title"} 
+              subtitle={"Insert the project description here. Describe a little about the project"}
+            />
+            <ProjectCardNew
+              title={"Project Title"} 
+              subtitle={"Insert the project description here. Describe a little about the project"}
+            />
+            <ProjectCardNew 
+              title={"Project Title"} 
+              subtitle={"Insert the project description here. Describe a little about the project"}
+            />
+            <ProjectCardNew
+              title={"Project Title"} 
+              subtitle={"Insert the project description here. Describe a little about the project"}
+            />
+            <ProjectCardNew 
+              title={"Project Title"} 
+              subtitle={"Insert the project description here. Describe a little about the project"}
+            />
+            <ProjectCardNew
+              title={"Project Title"} 
+              subtitle={"Insert the project description here. Describe a little about the project"}
+            />
+
 
             {/* <div className="project-grow">
               <ProjectCard
