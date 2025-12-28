@@ -9,7 +9,7 @@ export default function ProjectCardNew(props) {
     }
 
     return (
-        <div className="new-project-card-container hover-border">
+        <div className="new-project-card-container project-card-accent-line">
             <div className="new-project-card-text-container">
                 <label className="new-project-card-title">Project Title</label>
                 <label className="new-project-card-subtitle">
