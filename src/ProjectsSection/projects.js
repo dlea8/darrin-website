@@ -14,7 +14,7 @@ function Projects() {
         <div className="section-title">
             <label>Personal Projects</label>
         </div>
-        <div className="projects-content">
+        <div className="section-content-container projects-content">
             <ProjectCardNew 
               title={"Project Title"} 
               subtitle={"Insert the project description here. Describe a little about the project"}
