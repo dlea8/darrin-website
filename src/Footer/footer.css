@@ -1,19 +1,17 @@
 .footer {
     min-height: 150px;
     padding: 16px;
-    /* width: 100%; */
 }
 
 .footer-name {
     font-size: x-large;
     font-weight: bold;
-    font-family: "Roboto Slab",serif;
     padding: 8px;
     text-align: center;
 }
 
 .footer-name:hover{
-    color: rgb(17, 202, 202);
+    color: var(--color-primary);
 }
 
 .footer-socials {
@@ -28,12 +26,20 @@
     padding: 8px;
 }
 
+.footer-icons:hover {
+    color: var(--color-primary)
+}
+
 .copywrite {
     width: 85%;
+    max-width: var(--content-max-width);
+
     margin: auto;
+    padding: 4px;
+    
     border-top: .1rem solid #e6e6e6;
     margin-top: 8px;
-    padding: 4px;
+
     text-align: center;
 
 }

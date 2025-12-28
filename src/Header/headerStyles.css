@@ -1,10 +1,9 @@
 .header {
-    background-color: darkgray;
-    background-image: url('../assets/wordsBackground.jpg');
+    background-color: var(--color-primary);
+    background-image: url('../assets/sudokuSolverCode.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    /* #98ff98 ; */
 }
 
 .header-wrapper {   
@@ -29,7 +28,7 @@
 .name {
     font-size: 44px;
     font-weight: bold;
-    font-family: "Roboto Slab",serif;
+    /* font-family: "Roboto Slab",serif; */
     color: white;
 }
 
@@ -39,6 +38,10 @@
     color: white;
 }
 
+.icons:hover {
+    color: var(--color-primary)
+}
+
 
 .grow { 
     transition: all .2s ease-in-out; 
@@ -46,5 +49,5 @@
 
 .grow:hover { 
     transform: scale(1.2); 
-    color: rgb(17, 202, 202);
+    color: var(--color-primary)
 }

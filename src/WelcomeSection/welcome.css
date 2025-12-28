@@ -1,10 +1,9 @@
 .welcome-section {
-    padding: 48px 0px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-between;
-    max-width: 1250px;
+    max-width: var(--content-max-width);
     width: 85%;
 }
 .welcome-header {
@@ -19,7 +18,7 @@
 .welcome-lbl {
     font-size: 36px;
     font-weight: bold;
-    font-family: "Roboto Slab",serif;
+    /* font-family: "Roboto Slab",serif; */
     text-align: left;
     width: 100%;
 }
@@ -39,8 +38,8 @@
     text-align: left;
     font-size: large;
     line-height: 28px;;
-    font-family: "Roboto Slab",serif;
-    color:rgb(155, 154, 154);
+    /* font-family: "Roboto Slab",serif; */
+    color: var(--color-text-secondary)
 
 }
 
