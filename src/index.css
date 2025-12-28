@@ -29,5 +29,7 @@ code {
 
   --content-max-width: 1250px;
 
-  --section-padding: 64px
+  --section-padding: 64px;
+
+  --animate-time: 300ms;
 }

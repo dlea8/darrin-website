@@ -88,7 +88,7 @@
 
 .new-project-card-container {
     background-color: var(--color-bg-primary);
-    border-radius: var(--border-radius-standard);
+    /* border-radius: var(--border-radius-standard); */
 
     padding: 24px;
 
@@ -98,6 +98,7 @@
     width: 1rem;
 
     box-shadow: 0px 6px 8px 0px rgba(44, 44, 44, 0.1);
+    /* border-bottom: 4px solid var(--color-primary); */
 
 }
 
@@ -137,4 +138,28 @@
     height: 4px;
     background-color: var(--color-primary);
     justify-self: flex-end;
+}
+
+.hover-border {
+  position: relative;
+  display: inline-block;
+}
+
+/* the animated "border" */
+.hover-border::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background-color: var(--color-primary);
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--animate-time) ease;
+}
+
+.hover-border:hover::after {
+  transform: scaleX(1);
 }

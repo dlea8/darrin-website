@@ -2,7 +2,7 @@ import "./projectStyles.css";
 
 export default function ProjectCardNew(props) {
     return (
-        <div className="new-project-card-container">
+        <div className="new-project-card-container hover-border">
             <div className="new-project-card-text-container">
                 <label className="new-project-card-title">Project Title</label>
                 <label className="new-project-card-subtitle">
@@ -13,7 +13,7 @@ export default function ProjectCardNew(props) {
                     probably want it consistent with the navbar style */}
                 {/* Maybe a small image or logo here as well? */}
                 <div className="spacer"></div>
-                <div className="new-project-card-accent-line"></div>
+                {/* <div className="new-project-card-accent-line"></div> */}
             </div>
 
         </div>
