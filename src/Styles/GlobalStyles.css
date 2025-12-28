@@ -17,6 +17,14 @@
     padding: var(--section-padding) 0px
 }
 
+.primary-section {
+    background-color: var(--color-bg-primary);
+}
+
+.secondary-section {
+    background-color: var(--color-bg-secondary);
+}
+
 .section-title {
     margin-bottom: var(--section-padding);
 

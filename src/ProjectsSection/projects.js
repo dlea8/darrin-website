@@ -10,7 +10,7 @@ import BlueButton from "../SharedComponents/blueButton";
 function Projects() {
 
   return (
-    <div className="projects-section section">
+    <div className="section secondary-section">
         <div className="section-title">
             <label>Personal Projects</label>
         </div>
