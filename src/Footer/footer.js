@@ -23,7 +23,7 @@ function Footer() {
           </div>
         </div>
         <div className="copywrite">
-            Copywrite © {new Date().getFullYear()} Darrin Lea
+            ©{new Date().getFullYear()} Darrin Lea
         </div>
     </div>
   );

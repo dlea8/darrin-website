@@ -35,10 +35,10 @@
     max-width: var(--content-max-width);
 
     margin: auto;
-    padding: 4px;
+    margin-top: 8px;
+    padding: 16px;
     
     border-top: .1rem solid #e6e6e6;
-    margin-top: 8px;
 
     text-align: center;
 
