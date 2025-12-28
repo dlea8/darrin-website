@@ -1,70 +1,9 @@
 .github-link {
-    color: var(--color-primary);
+    color: rgb(17, 202, 202);
     text-decoration: none;
     font-weight: 500;
 }   
 
 .github-link:hover {
     color: rgb(13, 81, 226);
-}
-
-/* dont think this will always garuantee that it will act predictably */
-.spacer {
-    flex-grow: 1;
-}
-
-.section {
-    padding: var(--section-padding) 0px
-}
-
-.section-title {
-    margin-bottom: var(--section-padding);
-
-    color: var(--color-text-primary);
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-/* BUTTON STYLES */
-
-.button-container {
-    background-color: var(--color-primary);
-    border-radius: 50%;
-
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-.custom-button {
-    cursor: pointer;
-    border: none;
-
-    padding: 0px 48px;
-
-    background-color: var(--color-primary);
-    color: white;
-
-    font-size: small;
-    font-weight: bold;
-    text-align: center;
-
-    border-radius: 16px;
-    height: 32px;
-
-    transition:
-        background-color 200ms ease,
-        transform 100ms ease;
-}
-
-.custom-button:hover {
-    background-color: var(--color-primary-dark);
-}
-
-.custom-button:active {
-    transform: scale(0.97);
-}
-
-.custom-button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
 }

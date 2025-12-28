@@ -1,33 +1,26 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactGA from 'react-ga4';
+import ReactGA from "react-ga4";
 
-const container = document.getElementById('root');
-
-if (!container) {
-  throw new Error('Root container missing in index.html');
-}
-
-// Initialize Google Analytics
-if (window.location.hostname !== 'localhost') {
-  ReactGA.initialize('G-N6PBLYXMET');
-  ReactGA.send('pageview');
-  console.log('CONNECTED');
+if (window.location.hostname != "localhost") {
+  ReactGA.initialize("G-N6PBLYXMET");
+  console.log('CONNECTED')
 } else {
-  console.log('ANALYTICS NOT REPORTED - USER ON LOCALHOST');
+  console.log('ANALYTICS NOT REPORTED - USER ON LOCALHOST')
 }
+ReactGA.send("pageview");
 
-// Create React root
-const root = createRoot(container);
-
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
-// Optional performance reporting
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

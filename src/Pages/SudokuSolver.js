@@ -1,6 +1,7 @@
-import {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import image from "../assets/headshot.jpg";
 import "../Styles/GlobalStyles.css";
 import Footer from "../Footer/footer";
 import PageNavbar from "../NavBar/PagesNavbar";
@@ -24,7 +25,7 @@ function SudokuSolver() {
                 <h1>Sudoku Solver</h1>
             </div>
             <div className="page-image-holder" >
-              <img className="page-header-image" src={codeImage} alt="Unavailable"></img>
+              <img className="page-header-image" src={codeImage}></img>
             </div>
 
             <div>
@@ -44,7 +45,7 @@ function SudokuSolver() {
                     is no conflict and tries different numbers. This process continues until there is a combination of numbers that solves the puzzle. I'd also love to explore the 
                     possibility of developing a machine learning model for solving Sudoku puzzles. <br/>
                     <br/>
-                    Check out the Sudoku Solver on Github <a className="github-link" target="_blank" rel="noreferrer" href="https://github.com/dlea8/SudokuSolver">here</a>!
+                    Check out the Sudoku Solver on Github <a className="github-link" target="_blank" href="https://github.com/dlea8/SudokuSolver">here</a>!
                   </p>
             </div>
           </div>

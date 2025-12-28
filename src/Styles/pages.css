@@ -1,17 +1,17 @@
 .page-background {
-    background-color: var(--color-bg-secondary);
+    background-color: #F5F5F5;
 }
 
 .page-content-section {
     width: 85vw;
     margin: auto;
-    background-color: var(--color-bg-primary);
+    background-color: white;
 }
 
 .page-header-div {
     padding: 32px 0px;
     /* font-family: Helvetica;  */
-    /* font-family: "Roboto Slab",serif; */
+    font-family: "Roboto Slab",serif;
 }
 
 .page-text-div {
@@ -32,7 +32,7 @@
 }
 
 .page-footer-div {
-    background-color: var(--color-bg-primary);
+    background-color: white;
 }
 
 .project-description {
@@ -40,7 +40,7 @@
     margin: 0px;
     font-size: 20px;
     /* font-family: Helvetica;  */
-    /* font-family: "Roboto Slab",serif; */
+    font-family: "Roboto Slab",serif;
     line-height: 28px;
 }
 

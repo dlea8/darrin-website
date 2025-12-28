@@ -1,6 +1,6 @@
 import './welcome.css';
 
-import {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import image from "../assets/headshot.jpg";
@@ -14,9 +14,9 @@ function Welcome() {
   }, []);
 
     return (
-      <div className="welcome-section section">
+      <div className="welcome-section">
         <div className='text-div'>
-          <div className='welcome-header'>
+          <div className='welcome-header' >
               <div className='welcome-wrapper'><label className="welcome-lbl">Welcome!</label></div>
                 
           </div>
@@ -32,7 +32,7 @@ function Welcome() {
           </div>
         </div>
         <div className='img-div'>
-          <img src={image} className='welcome-img-style' alt='Unavailable'></img>
+          <img src={image} className='welcome-img-style'></img>
         </div>
       </div>
     );
