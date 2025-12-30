@@ -7,17 +7,25 @@
 
 .publication-card-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    overflow: hidden;
+
+    max-height: 200px;
 
     position: relative;
 
-    border-bottom: 4px solid var(--color-primary);
+    /* border-bottom: 4px solid var(--color-primary); */
+
+    padding: 0;
 }
 
 .publications-text-container {
     display: flex;
     flex-direction: column;
+    flex: 1;
     gap: 8px;
+
+    padding: var(--card-padding);
 
     text-align: left;
 
@@ -34,4 +42,44 @@
 .publication-link-icon:hover {
     cursor: pointer;
     color: var(--color-primary);
+}
+
+.publication-image-container {
+    position: relative;
+    display: flex;
+    flex: 1;
+
+    /* height: 100%; */
+    max-height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.publication-image-container img {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+
+    /* padding: 48px 0px; */
+
+    display: inline;
+
+    box-sizing: border-box;
+}
+
+/* Fade overlay */
+.publication-image-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to left,                       /* For diagonal fade gradient */
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 55%,   /* stay clear longer */
+        rgba(255, 255, 255, 0.6) 90%, /* start fading */
+        rgba(255, 255, 255, 1) 100%   /* fully blended */
+    );
 }

@@ -2,7 +2,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./publications.css"
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 
-export default function PublicationCard() {
+export default function PublicationCard({
+    image, 
+    backgroundColor = "#ffffff"
+}) {
+
+    console.log(image);
     return (
         <div className="publication-card-container card">
             <div className="publications-text-container">
@@ -10,8 +15,11 @@ export default function PublicationCard() {
                 <label className="card-subtitle">1/21/2025</label>
                 <label className="card-subtitle">By: Darrin Lea + other authors if applicable</label>
             </div>
-            <FontAwesomeIcon className="publication-link-icon" icon={faExternalLink} size="lg"/>
+            {/* <FontAwesomeIcon className="publication-link-icon" icon={faExternalLink} size="lg"/> */}
             {/* some kind of link to the pbulication as well */}
+            <div className="publication-image-container" style={{ "backgroundColor": backgroundColor }}>
+                <img src={image} alt="Unavailable" />
+            </div>
         </div>
     );
 }
