@@ -30,6 +30,7 @@
     text-align: left;
 
     width: 100%;
+    box-sizing: border-box; /* Ensures that padding is included in width calculation */
 }
 
 .publication-link-icon {
@@ -89,6 +90,7 @@
 @media (max-width: 768px) {
   .publication-card-container {
     flex-direction: column;
+    max-height: 100%;
   }
 
   .publication-image-container::before {
