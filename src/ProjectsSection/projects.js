@@ -10,11 +10,11 @@ import BlueButton from "../SharedComponents/blueButton";
 function Projects() {
 
   return (
-    <div className="projects-section section">
+    <div className="section secondary-section">
         <div className="section-title">
             <label>Personal Projects</label>
         </div>
-        <div className="projects-content">
+        <div className="section-content-container projects-content">
             <ProjectCardNew 
               title={"Project Title"} 
               subtitle={"Insert the project description here. Describe a little about the project"}

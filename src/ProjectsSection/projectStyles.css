@@ -1,11 +1,4 @@
-.projects-section {
-    background-color: var(--color-bg-secondary);
-}
-
 .projects-content {
-    width: 85%;
-    max-width: var(--content-max-width);
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
