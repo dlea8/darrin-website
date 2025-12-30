@@ -1,0 +1,96 @@
+.navbar-container {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-flex {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    max-width: var(--content-max-width);
+    margin: auto;
+    padding-top: 24px;
+}
+
+.nav-item {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    padding: 24px;
+}
+
+.nav-item:hover {
+    color: var(--color-primary);
+}
+
+
+
+/* ================================================================= */
+
+.page-navbar-wrapper {
+    background-color: var(--color-primary);
+    height: 8vh;
+}
+
+.page-navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+
+.page-navbar-name {
+    font-size: x-large;
+    font-weight: 600;
+    /* font-family: "Roboto Slab",serif; */
+    color: white;
+    margin: auto 0px;
+
+}
+
+.page-navbar-name:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.pages-navbar-link {
+    text-decoration: none;
+    color: white;
+}
+
+.pages-navbar-link:hover {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.pages-navbar-link::after {
+    text-decoration: none;
+    color: white;
+}
+
+.page-navbar-socials-wrapper {
+    align-items: right;
+    justify-content: right;
+    align-content: right;
+}
+
+.page-navbar-socials {
+    display: flex;
+    flex-direction: row;
+    vertical-align: auto;
+    align-items: left;
+    height: 100%;
+    width:fit-content;
+    margin: auto 0 auto auto;
+    align-self: right;
+}
+
+.page-navbar-socials > a {
+    padding: 4px 0px;
+}
+
+.resume-link {
+    text-decoration: none;
+}

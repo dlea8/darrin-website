@@ -17,14 +17,6 @@ function App() {
         </Routes>
       </div>
     </Router>
-    // <div className="App">
-    //   <NavBar></NavBar>
-    //   <Header></Header>
-    //   <Welcome></Welcome>
-    //   <Projects/>
-    //   <Footer></Footer>
-
-    // </div>
   );
 }
 
