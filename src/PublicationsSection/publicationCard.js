@@ -11,7 +11,7 @@ export default function PublicationCard({
 }) {
 
     return (
-        <div className="publication-card-container card">
+        <div className="publication-card-container card" style={{ '--image-bg-color': backgroundColor }}>
             <div className="publications-text-container">
                 <label className="card-title">{title}</label>
                 <label className="card-subtitle">Published: {date}</label>
@@ -19,8 +19,8 @@ export default function PublicationCard({
             </div>
             {/* <FontAwesomeIcon className="publication-link-icon" icon={faExternalLink} size="lg"/> */}
             {/* some kind of link to the pbulication as well */}
-            <div className="publication-image-container" style={{ "backgroundColor": backgroundColor }}>
-                <img src={image} alt="Unavailable" />
+            <div className="publication-image-container">
+                <img src={image} alt="Unavailable"/>
             </div>
         </div>
     );
