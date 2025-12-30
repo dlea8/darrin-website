@@ -19,10 +19,6 @@
     padding: 0;
 }
 
-.publication-card-container:hover {
-    cursor: pointer;
-}
-
 .publication-card-container:hover .publication-image-container {
     background-color: var(--image-bg-color);
 }
@@ -41,16 +37,15 @@
     box-sizing: border-box; /* Ensures that padding is included in width calculation */
 }
 
-.publication-link-icon {
-    position: absolute;
-    top: var(--card-padding);
-    right: var(--card-padding);;
-    color: var(--color-text-primary);
+.publications-text-container * {
+    cursor: pointer;
 }
 
-.publication-link-icon:hover {
+.publication-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
     cursor: pointer;
-    color: var(--color-primary);
 }
 
 .publication-image-container {
