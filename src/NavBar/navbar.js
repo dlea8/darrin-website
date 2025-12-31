@@ -22,10 +22,10 @@ export default function Navbar() {
 					<div className="navbar-logo">{scrolled ? "Darrin Lea" : ""}</div>
 
 					<nav className="navbar-links">
-						<a href="#about">About</a>
-						<a href="#projects">Projects</a>
-						<a href="#publications">Publications</a>
-						<a href="#resume">Resume</a>
+						<a href="#about" className="navbar-link-element">About</a>
+						<a href="#projects" className="navbar-link-element">Projects</a>
+						<a href="#publications" className="navbar-link-element">Publications</a>
+						<a href="#resume" className="navbar-link-element">Resume</a>
 					</nav>
 
 					<button
