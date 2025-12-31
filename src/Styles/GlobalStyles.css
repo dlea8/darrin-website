@@ -103,3 +103,15 @@
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+.hidden {
+    display: none;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}

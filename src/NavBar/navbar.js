@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./navbar.css";
+import "../Styles/GlobalStyles.css"
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -16,18 +17,19 @@ export default function Navbar() {
 
     return (
         <>
-            <header className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
-                <div className="navbar__content">
-					<div className="navbar__logo">Logo</div>
+            <header className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
+                <div className={`navbar-content ${scrolled ? "space-between" : "center"}`}>
+					<div className="navbar-logo">{scrolled ? "Darrin Lea" : ""}</div>
 
-					<nav className="navbar__links">
+					<nav className="navbar-links">
 						<a href="#about">About</a>
 						<a href="#projects">Projects</a>
-						<a href="#contact">Contact</a>
+						<a href="#publications">Publications</a>
+						<a href="#resume">Resume</a>
 					</nav>
 
 					<button
-						className={`navbar__hamburger ${scrolled ? "after-scroll" : "before-scroll"}`}
+						className={`navbar-hamburger ${scrolled ? "after-scroll" : "before-scroll"}`}
 						onClick={() => setOpen(true)}
 						aria-label="Open menu"
 					>
@@ -48,7 +50,9 @@ export default function Navbar() {
 
                 <a href="#about" onClick={() => setOpen(false)}>About</a>
                 <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
-                <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
+                <a href="#publications" onClick={() => setOpen(false)}>Publications</a>
+                <a href="#resume" onClick={() => setOpen(false)}>Resume</a>
+				
             </div>
 
             {open && <div className="drawer-overlay" onClick={() => setOpen(false)} />}
