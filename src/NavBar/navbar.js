@@ -48,10 +48,12 @@ export default function Navbar() {
                 ✕
                 </button>
 
-                <a href="#about" onClick={() => setOpen(false)}>About</a>
-                <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
-                <a href="#publications" onClick={() => setOpen(false)}>Publications</a>
-                <a href="#resume" onClick={() => setOpen(false)}>Resume</a>
+				<div className="mobile-drawer-links">
+					<a href="#about" onClick={() => setOpen(false)}>About</a>
+					<a href="#projects" onClick={() => setOpen(false)}>Projects</a>
+					<a href="#publications" onClick={() => setOpen(false)}>Publications</a>
+					<a href="#resume" onClick={() => setOpen(false)}>Resume</a>
+				</div>
 				
             </div>
 

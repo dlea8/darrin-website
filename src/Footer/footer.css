@@ -38,7 +38,7 @@
     margin-top: 8px;
     padding: 16px;
     
-    border-top: .1rem solid #e6e6e6;
+    border-top: .1rem solid var(--color-divider-lines);
 
     text-align: center;
 
