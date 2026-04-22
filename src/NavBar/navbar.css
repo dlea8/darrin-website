@@ -108,45 +108,45 @@
 /* DRAWER STYLES */
 
 .mobile-drawer {
-  position: fixed;
-  top: 0;
-  right: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
 
-  height: 100dvh;
-  width: 280px;
+    height: 100dvh;
+    width: 280px;
 
-  background: white;
+    background: white;
 
-  transform: translateX(100%);
-  transition: transform var(--animate-time) ease;
-  z-index: 1100;
+    transform: translateX(100%);
+    transition: transform var(--animate-time) ease;
+    z-index: 1100;
 
-  padding: var(--card-padding);
+    padding: var(--card-padding);
 
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .mobile-drawer.open {
-  transform: translateX(0);
+    transform: translateX(0);
 }
 
 .drawer-close {
-  align-self: flex-end;
-  background: none;
-  border: none;
-  font-size: 1.25rem;
-  cursor: pointer;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .drawer-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 1050;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1050;
 }
 
 .mobile-drawer-header {
