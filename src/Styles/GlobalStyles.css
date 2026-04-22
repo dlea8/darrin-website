@@ -103,3 +103,27 @@
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+.hidden {
+    display: none;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    color: var(--color-text-primary);
+}
+
+.social-icon {
+    color: var(--color-text-primary);
+}
